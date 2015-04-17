@@ -30,6 +30,6 @@ A role or type attribute be added to the IMG element's collection of attributes,
 </ul>
 
 <strong>Usage:</strong>
-`<div class="header" role="banner"></div>
+&lt;div class=&quot;header&quot; role=&quot;banner&quot;&gt;&lt;/div&gt;
 
 ---
