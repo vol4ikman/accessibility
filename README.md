@@ -11,7 +11,7 @@ Accessibility examples
 
 A role or type attribute be added to the IMG element's collection of attributes, which would provide the sort of generic information that the current draft of HTML5 specifies should be contained in curly brackets as the value for alt -- for example:
 <ul>
-<li>`role="logo" or type="logo"</li>
+<li>```html role="logo" or type="logo"</li>
 <li>`role="layout" or type="layout"</li>
 <li>`role="link" or type="link"</li>
 <li>`role="button" or type="button"</li>
