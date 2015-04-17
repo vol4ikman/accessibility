@@ -32,4 +32,6 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <strong>Usage:</strong>
 &lt;div class=&quot;header&quot; role=&quot;banner&quot;&gt;&lt;/div&gt;
 
+<a href="http://www.w3.org/TR/wai-aria/roles#document_structure_roles" target="_blank">more info about role tags</a>
+
 ---
