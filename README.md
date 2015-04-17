@@ -2,7 +2,7 @@
 Accessibility examples
 
 <ul>
-<li>1) Tab navigation</li>
-<li>2) Roles attributes</li>
-<li>3) Tab index attributes</li>
+<li>Tab navigation</li>
+<li>Roles attributes</li>
+<li>Tab index attributes</li>
 </ul>
