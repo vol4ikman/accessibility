@@ -1,6 +1,6 @@
 # accessibility 0.1
-Accessibility examples
 
+Accessibility examples
 <ul>
 <li>Tab navigation</li>
 <li>Roles attributes</li>
