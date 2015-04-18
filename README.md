@@ -5,6 +5,7 @@ Accessibility examples
 <li>Tab navigation</li>
 <li>Roles attributes</li>
 <li>Tab index attributes</li>
+<li>WAI-ARIA - aria-label tag</li>
 </ul>
 
 ##Documents
