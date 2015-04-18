@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>accessibility 0.1</title>
+        <meta charset="utf-8" />
+        <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="theme.css" />
+    </head>
+
+    <body >
+
+    <div class="wrapper">
+
+        <div id="skip">
+            <a href="#navigation" tabindex="1">Skip to Navigation</a>
+            <a href="#articles-section" tabindex="2">Skip to Articles section</a>
+            <a href="#first-content-section" tabindex="3">Skip to First content</a>
+            <a href="#second-content-section" tabindex="4">Skip to Second content</a>
+        </div>
+
+        <header id="header" role="banner">
+            <h3>Header text</h3>  
+            <p>Header description</p>          
+        </header>
+
+        <nav id="navigation" role="navigation">
+            <ul class="clearfix">
+                <li role="menuitemcheckbox" aria-checked="true"><a href="/">Home</a></li>
+                <li role="menuitemcheckbox"><a href="/news">News</a></li>
+                <li role="menuitemcheckbox"><a href="/contacts">Contacts</a></li>
+            </ul>
+        </nav>        
+
+        <aside id="sidebar" role="complementary">
+            <div class="aside_inner">
+                <h4>Sidebar title</h4>  
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>                                
+            </div>            
+        </aside>
+
+        <section id="page" role="main">
+            
+            <div id="articles-section" role="region" aria-labelledby="articles">
+
+                <article class="article" role="article">
+                    <h4>Article title</h4>
+                    <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                    invasions, and the food that somebody left in the fridge last
+                    year that has mysteriously achieved sentience and declared
+                    itself a sovereign nation.</p>
+
+                    <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                    long it will take them to flee screaming is highly inappropriate.</p>
+
+                    <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                    invasions, and the food that somebody left in the fridge last
+                    year that has mysteriously achieved sentience and declared
+                    itself a sovereign nation.</p>                    
+                </article>
+
+                <article class="article" role="article">
+                    <h4>Article title</h4>
+                    <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                    invasions, and the food that somebody left in the fridge last
+                    year that has mysteriously achieved sentience and declared
+                    itself a sovereign nation.</p>
+
+                    <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                    long it will take them to flee screaming is highly inappropriate.</p>
+
+                    <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                    invasions, and the food that somebody left in the fridge last
+                    year that has mysteriously achieved sentience and declared
+                    itself a sovereign nation.</p>                    
+                </article>  
+
+            </div>
+
+            <div id="first-content-section" role="content" aria-label="First content section">
+                
+                <h3>Welcome to first content</h3>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <a href="#" role="button" aria-label="button">Button</a>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>                                
+
+            </div>
+
+            <div id="second-content-section" role="content" aria-label="Second content section">
+                
+                <h3>Welcome to second content!</h3>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p>
+
+                <p>We'd like to welcome all new agents and members of SHIELD! We thank you for your contributions to defending this planet from supervillains, alien
+                invasions, and the food that somebody left in the fridge last
+                year that has mysteriously achieved sentience and declared
+                itself a sovereign nation.</p>
+
+                <p>Existing agents, please remember that our new hires are members of the SHIELD family. Do not taunt or tease them. In particular, the betting pool on how
+                long it will take them to flee screaming is highly inappropriate.</p> 
+
+            </div>
+
+        </section>
+
+        <footer id="footer" role="contentinfo">
+            <p>ALl rights reserved</p>
+        </footer>        
+    
+    </div>
+
+    </body>
+
+</html>
