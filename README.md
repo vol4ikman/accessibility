@@ -29,6 +29,8 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <li><strong>navigation</strong> - navigation indicates a collection of items suitable for navigating the document or related documents</li>
 <li><strong>note</strong> - note indicates the content is parenthetic or ancillary to the main content of the resource</li>
 <li><strong>search</strong> - search indicates that the section provides a search facility</li>
+<li><strong>presentation</strong> - An element whose implicit native role semantics will not be mapped to the accessibility API.</li>
+<li><strong>menubar</strong> - A presentation of menu that usually remains visible and is usually presented horizontally.</li>
 </ul>
 
 <strong>Usage:</strong>
