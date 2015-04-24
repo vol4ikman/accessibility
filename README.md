@@ -36,6 +36,10 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <strong>Usage:</strong>
 &lt;div class=&quot;header&quot; role=&quot;banner&quot;&gt;&lt;/div&gt;
 
+---
+
+### Very useful links:
+
 <a href="http://www.w3.org/TR/wai-aria/roles#document_structure_roles" target="_blank">More information about 'role' tags</a>
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions" target="_blank">More information about 'aria-live'</a>
