@@ -1,4 +1,4 @@
-# accessibility 0.1
+# Accessibility 0.1
 ### More examples and documents [<a href="http://vol4ikman.github.io/accessibility/" title="Examples" target="_blank">HERE</a>]
 
 Accessibility examples
