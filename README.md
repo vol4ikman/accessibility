@@ -6,7 +6,7 @@ Content anchors:
 <li><a href="#user-content-documents">Documents</a></li>
 <li><a href="#user-content-basic-aria-page-markup">Basic ARIA Page Markup</a></li>
 <li><a href="#user-content-basic-aria-tab-interface">Basic ARIA TAB Markup</a></li>
-<li><a href="#">Basic label & input markup</a></li>
+<li><a href="#user-content-basic-label--input-markup">Basic label & input markup</a></li>
 <li><a href="#user-content-accessible-input-tooltips-with-no-javascript">Input tooltips with no javascript</a></li>
 </ul>
 
