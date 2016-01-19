@@ -32,7 +32,7 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <li><strong>presentation</strong> - An element whose implicit native role semantics will not be mapped to the accessibility API.</li>
 <li><strong>menubar</strong> - A presentation of menu that usually remains visible and is usually presented horizontally.</li>
 </ul>
-
+---
 ###Basic ARIA page markup:
 ```html
 <header class="header" role="banner">
@@ -57,7 +57,7 @@ A role or type attribute be added to the IMG element's collection of attributes,
 </aside>
 <footer class="footer" role="contentinfo">© Copyright Query Solutions 2016</footer>
 ```
-
+---
 ###Basic ARIA tab interface
 ```html
 <ul role="tablist">
