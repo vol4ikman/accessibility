@@ -32,6 +32,50 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <li><strong>presentation</strong> - An element whose implicit native role semantics will not be mapped to the accessibility API.</li>
 <li><strong>menubar</strong> - A presentation of menu that usually remains visible and is usually presented horizontally.</li>
 </ul>
+<br/>
+<table class="data">
+<caption>New HTML 5 elements and  corresponding ARIA roles</caption>
+  <tbody><tr>
+    <th scope="col">HTML 5</th>
+    <th scope="col">ARIA Role</th>
+  </tr>
+  <tr>
+    <td><code>&lt;header&gt;</code></td>
+    <td><code>role="banner"</code></td>
+  </tr>
+  <tr>
+    <td><code>&lt;nav&gt;</code></td>
+    <td><code>role="navigation"</code></td>
+  </tr>
+  <tr>
+    <td><code>&lt;main&gt;</code></td>
+    <td><code>role="main"</code></td>
+  </tr>
+  <tr>
+    <td><code>&lt;footer&gt;</code></td>
+    <td><code>role="contentinfo"</code></td>
+  </tr>
+  <tr>
+    <td><code>&lt;aside&gt;</code></td>
+    <td><code>role="complementary"</code></td>
+  </tr>
+  <tr>
+    <td><code>&lt;section&gt;</code></td>
+    <td><code>role="region"</code> *</td>
+  </tr>
+  <tr>
+    <td><code>&lt;article&gt;</code></td>
+    <td><code>role="article"</code> *</td>
+  </tr>
+  <tr>
+    <td><code>none</code></td>
+    <td><code>role="search"</code></td>
+  </tr>
+  <tr>
+    <td><code>&lt;form&gt;</code></td>
+    <td><code>role="form"</code></td>
+  </tr>
+</tbody></table>
 ---
 ###Basic ARIA page markup:
 ```html
