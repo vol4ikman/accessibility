@@ -73,6 +73,33 @@ A role or type attribute be added to the IMG element's collection of attributes,
 ```
 ---
 
+###Accessible input tooltips with no javascript
+```html
+<form action="">
+  <fieldset>
+    <legend>Login form</legend>
+    <div>
+      <label for="username">Your username</label>
+	    <input type="text" id="username" aria-describedby="username-tip" required />
+	    <div role="tooltip" id="username-tip">Your username is your email address</div>
+	  </div>
+	<div>
+	  <label for="password">Your password</label>
+	  <input type="text" id="password" aria-describedby="password-tip" required />
+	  <div role="tooltip" id="password-tip">Was emailed to you when you signed up</div>
+	</div>
+  </fieldset>
+</form>
+```
+```css
+input:focus + [role="tooltip"] {
+	display: block;
+	position: absolute;
+	top: 100%;
+}
+```
+
+---
 ### Very useful links:
 
 <a href="http://www.w3.org/TR/wai-aria/roles#document_structure_roles" target="_blank">More information about 'role' tags</a>
