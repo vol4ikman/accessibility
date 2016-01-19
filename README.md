@@ -6,6 +6,7 @@ Content anchors:
 <li><a href="#user-content-documents">Documents</a></li>
 <li><a href="#user-content-basic-aria-page-markup">Basic ARIA Page Markup</a></li>
 <li><a href="#user-content-basic-aria-tab-interface">Basic ARIA TAB Markup</a></li>
+<li><a href="#">Basic label & input markup</a></li>
 <li><a href="#user-content-accessible-input-tooltips-with-no-javascript">Input tooltips with no javascript</a></li>
 </ul>
 
@@ -116,6 +117,12 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <section id="section3" role="tabpanel" aria-hidden="true">...</section>
 ```
 ---
+
+###Basic label & input markup
+```html
+<label for="name">Name:</label>
+<input id="name" type="text" name="textfield">
+```
 
 ###Accessible input tooltips with no javascript
 ```html
