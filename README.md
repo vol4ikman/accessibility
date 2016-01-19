@@ -33,13 +33,43 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <li><strong>menubar</strong> - A presentation of menu that usually remains visible and is usually presented horizontally.</li>
 </ul>
 
-<strong>Usage:</strong>
+###Basic ARIA page markup:
 ```html
-<header class="header" role="banner">Header content</header>
-<main class="main_container" role="main">Main content</main>
-<aside role="complementary"> supplemental content (sidebar content)</aside>
+<header class="header" role="banner">
+  <div class="logo">
+    <a href="/" title="site title"><img src="#" type="logo" alt="site logo" /></a>
+  </div>
+  <nav class="header_navigation" role="navigation">
+     <ul>
+        <li>Put navigation here</li>
+     </ul>
+  </nav>  
+</header>
+<main class="main_container" role="main">
+  <section class="section" role="region">
+    <article class="article" role="article"></article>
+    <article class="article" role="article"></article>
+    <article class="article" role="article"></article>
+  </section>
+</main>
+<aside role="complementary">
+  <form role="form" class="form"></form>
+</aside>
 <footer class="footer" role="contentinfo">© Copyright Query Solutions 2016</footer>
 ```
+
+###Basic ARIA tab interface
+<ul role="tablist">
+  <li role="presentation">
+    <a href="#section1" tabindex="0" role="tab" aria-controls="section1" aria-selected="true">Section 1</a>
+  </li>
+  <li role="presentation"><a href="#section2" tabindex="-1" role="tab" aria-controls="section2">Section 2</a></li>
+  <li role="presentation"><a href="#section3" tabindex="-1" role="tab" aria-controls="section3">Section 3</a></li>
+</ul>
+<section id="section1" role="tabpanel">...</section>
+<section id="section2" role="tabpanel" aria-hidden="true">...</section>
+<section id="section3" role="tabpanel" aria-hidden="true">...</section>
+
 ---
 
 ### Very useful links:
