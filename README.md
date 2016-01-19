@@ -59,6 +59,7 @@ A role or type attribute be added to the IMG element's collection of attributes,
 ```
 
 ###Basic ARIA tab interface
+```html
 <ul role="tablist">
   <li role="presentation">
     <a href="#section1" tabindex="0" role="tab" aria-controls="section1" aria-selected="true">Section 1</a>
@@ -69,7 +70,7 @@ A role or type attribute be added to the IMG element's collection of attributes,
 <section id="section1" role="tabpanel">...</section>
 <section id="section2" role="tabpanel" aria-hidden="true">...</section>
 <section id="section3" role="tabpanel" aria-hidden="true">...</section>
-
+```
 ---
 
 ### Very useful links:
