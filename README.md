@@ -35,8 +35,9 @@ A role or type attribute be added to the IMG element's collection of attributes,
 
 <strong>Usage:</strong>
 ```html
-<header class="header" role="banner"></header>
-<footer role="contentinfo">© Copyright Query Solutions 2016</footer>
+<header class="header" role="banner">Header content</header>
+<main class="main_container" role="main">Main content</main>
+<footer class="footer" role="contentinfo">© Copyright Query Solutions 2016</footer>
 ```
 ---
 
