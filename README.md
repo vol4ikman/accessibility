@@ -8,6 +8,7 @@ Content anchors:
 <li><a href="#user-content-basic-aria-tab-interface">Basic ARIA TAB Markup</a></li>
 <li><a href="#user-content-basic-label--input-markup">Basic label & input markup</a></li>
 <li><a href="#user-content-accessible-input-tooltips-with-no-javascript">Input tooltips with no javascript</a></li>
+<li><a href="#user-content-accordion-based-on-foundation-6">Accordion based on Foundation 6</a></li>
 </ul>
 
 ##Documents
