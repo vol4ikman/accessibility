@@ -177,6 +177,15 @@ input:focus + [role="tooltip"] {
 </ul>
 ```
 
+###Search Form
+```html
+<form action="…">
+  <div role="search">
+    <input type="search" aria-label="Search"> <button type="submit">Search</button>
+  </div>
+</form>
+```
+
 ---
 ### Very useful links:
 
