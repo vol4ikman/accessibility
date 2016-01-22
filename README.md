@@ -93,11 +93,19 @@ A role or type attribute be added to the IMG element's collection of attributes,
 </header>
 
 <main class="main_container" role="main">
-  <section class="section" role="region">
+
+  <section class="section" role="region" id="section-1">
     <article class="article" role="article"></article>
     <article class="article" role="article"></article>
     <article class="article" role="article"></article>
   </section>
+  
+  <section class="section" role="region" id="section-2">
+    <article class="article" role="article"></article>
+    <article class="article" role="article"></article>
+    <article class="article" role="article"></article>
+  </section>  
+  
 </main>
 
 <aside role="complementary">
