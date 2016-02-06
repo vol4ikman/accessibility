@@ -10,8 +10,6 @@ Content anchors:
 	<li><a href="#user-content-accessible-input-tooltips-with-no-javascript">Input tooltips with no javascript</a></li>
 	<li><a href="#user-content-accordion-based-on-foundation-6">Accordion based on Foundation 6</a></li>
 	<li><a href="#user-content-search-form">Search Form</a></li>
-	<li><a href="https://www.paciellogroup.com/resources/contrastanalyser/" target="_blank">Colour Contrast Analyser</a></li>
-	
 </ul>
 
 ##Documents
@@ -198,5 +196,8 @@ input:focus + [role="tooltip"] {
 
 <a href="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker</a>
 
+<a href="https://www.paciellogroup.com/resources/contrastanalyser/" target="_blank">Color Contrast Analyser SOFTWARE</a>
+
+<a href="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker ONLINE</a>
 
 ---
