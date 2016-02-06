@@ -194,8 +194,6 @@ input:focus + [role="tooltip"] {
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions" target="_blank">More information about 'aria-live'</a>
 
-<a href="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker</a>
-
 <a href="https://www.paciellogroup.com/resources/contrastanalyser/" target="_blank">Color Contrast Analyser SOFTWARE</a>
 
 <a href="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker ONLINE</a>
