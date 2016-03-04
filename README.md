@@ -198,5 +198,5 @@ input:focus + [role="tooltip"] {
 
 <a href="http://webaim.org/resources/contrastchecker/" target="_blank">Color Contrast Checker ONLINE</a>
 
-<a href="http://www.sitepoint.com/how-to-use-aria-effectively-with-html5/">Very useful article about ARIA tags<\a>
+<a href="http://www.sitepoint.com/how-to-use-aria-effectively-with-html5/">Very useful article about ARIA tags</a>
 ---
