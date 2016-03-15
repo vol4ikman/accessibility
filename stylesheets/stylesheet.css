@@ -15,7 +15,7 @@ body {
   cursor:pointer;
 }
 .title_element h3 {
-  margin-bottom:0;
+  margin-bottom:0 !important;
 }
 .acc_item {
   padding-bottom:1rem;
