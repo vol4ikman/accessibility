@@ -12,6 +12,10 @@
     zoom: 1; /* IE < 8 */
 }
 
+.content_element {
+  display:none;
+}
+
 #skip a, #skip a:hover, #skip a:visited {
     position:absolute;
     left:0px;
