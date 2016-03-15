@@ -11,6 +11,14 @@ body {
 .content_element {
   display:none;
 }
+.title_element {
+  cursor:pointer;
+}
+.acc_item {
+  padding-bottom:1rem;
+  margin-bottom:1rem;
+  border-bottom:1px solid silver;
+}
 a {
   color: #1e6bb8;
   text-decoration: none; }
