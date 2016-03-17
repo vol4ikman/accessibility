@@ -134,6 +134,10 @@ a {
   font-size:1.6rem;
   color: #3259B9;
 }
+.main-content h2 {
+  font-size:1.6rem;
+  font-weight:bold;
+}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
