@@ -135,8 +135,10 @@ a {
   color: #3259B9;
 }
 .main-content h2 {
-  font-size:1.6rem;
+  font-size:1.8rem;
   font-weight:bold;
+  color: black;
+  text-decoration: underline;  
 }
 .main-content p {
   margin-bottom: 1em; }
