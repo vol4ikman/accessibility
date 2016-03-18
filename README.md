@@ -80,6 +80,15 @@ A role or type attribute be added to the IMG element's collection of attributes,
   </tr>
 </tbody></table>
 ---
+###Basic HTML Section markup with section description:
+```html
+<div role="main" aria-labelledby="section_title" aria-describedby="desc">
+   <h3 id="section_title">Wild fires spread across the San Diego Hills</h3>
+   <div id="desc" class="description">Strong winds expand fires ignited by high temperatures ...</div>
+</div>
+```
+---
+
 ###Basic ARIA page markup:
 ```html
 <header class="header" role="banner">
